@@ -1,0 +1,2 @@
+# discord_Morse_code_bot
+モールス信号を変換するDiscordのbot
