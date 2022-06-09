@@ -53,7 +53,7 @@ client.on("interactionCreate", interaction => {
           .setColor('#0099ff')
           .setTitle("文字をモールス信号へ変換")
           .setDescription(`${code}`)
-        interaction.reply({ embeds: [embed], ephemeral: true });
+        interaction.reply({ embeds: [embed], ephemeral: Config.ephemeral });
         return;
       }
 
@@ -65,7 +65,7 @@ client.on("interactionCreate", interaction => {
           .setColor('#0099ff')
           .setTitle("モールス信号を文字に変換")
           .setDescription(`${code}`)
-        interaction.reply({ embeds: [embed], ephemeral: true });
+        interaction.reply({ embeds: [embed], ephemeral: Config.ephemeral });
         return;
       }
     }
