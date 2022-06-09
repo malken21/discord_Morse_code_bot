@@ -1,4 +1,5 @@
 {
   "TOKEN": "BotのToken",
-  "ServerID": "ServerのID"
+  "ServerID": "ServerのID",
+  "ephemeral": true
 }
